@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    background-image: url(topicos/fundo.png);
+    background-attachment: fixed;
+}
+img{
+    border-radius: 35px;
+}
+.thumbnail-project{
+    transition: all 0.2s ease-in;
+}
+.thumbnail-project:hover{
+    transition: all 0.2s ease-in;
+    transform: scale(90%);
+}
+.github{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 80% ; 
+}
+.devs{
+    margin-left: 20px;
+}
+.text-xlarge.c1-75{
+    transition: all 0.2s ease-in;
+}
+.text-xlarge.c1-75:hover{
+    color: rgb(155, 130, 105);
+    text-decoration-line: underline;
+    transition: all 0.2s ease-in;
+}
+.gif{
+    width: 60%;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+p{
+    text-indent: 50px;
+}
+@media(min-width: 768px){
+    .mobile-only{
+        display:none
+    }
+}
+@media(max-width: 768px){
+    .desktop-only{
+        display:none
+    }
+}
+.heading-medium{
+    margin-left: 20px;
+}
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+.tag{
+    color: rgb(63, 63, 63);
+}
+
+

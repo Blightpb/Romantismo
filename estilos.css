@@ -46,9 +46,17 @@ img{
 p{
     text-indent: 50px;
 }
-@media(min-width: 768px){
-    .mobile-only{
-        display:none
+@media(min-width: 768px) {
+    .mobile-only {
+        display: none
+    }
+    .thumbnail-project {
+        transition: all 0.2s ease-in;
+    }
+    
+    .thumbnail-project:hover {
+        transition: all 0.2s ease-in;
+        transform: scale(90%);
     }
 }
 @media(max-width: 768px){
